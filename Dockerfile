@@ -1,0 +1,5 @@
+ARG NGINX_VERSION=1.13.11
+
+FROM nginx:${NGINX_VERSION}-alpine
+
+RUN nginx -v
