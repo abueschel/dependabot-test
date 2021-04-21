@@ -1,3 +1,3 @@
-FROM nginx:1.13.11
+FROM nginx:1.20.0
 
 RUN nginx -v
