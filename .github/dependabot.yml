@@ -2,7 +2,6 @@ version: 2
 updates:
   - package-ecosystem: "docker"
     directory: "/"
-    rebase-strategy: "disabled"
     target-branch: "main"
     schedule:
       interval: "daily"
@@ -10,11 +9,8 @@ updates:
       timezone: "Europe/Berlin"
   - package-ecosystem: "github-actions"
     directory: "/"
-    rebase-strategy: "disabled"
     target-branch: "main"
     schedule:
       interval: "daily"
       time: "07:00"
       timezone: "Europe/Berlin"
-
-# .
