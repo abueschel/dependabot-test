@@ -1,3 +1,3 @@
-FROM nginx:1.23.3
+FROM caddy:2.6.2
 
-RUN nginx -v
+RUN caddy version
