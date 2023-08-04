@@ -1,3 +1,3 @@
-FROM caddy:2.6.4
+FROM caddy:2.7.2
 
 RUN caddy version
